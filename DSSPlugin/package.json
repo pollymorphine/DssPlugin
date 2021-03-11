@@ -1,0 +1,15 @@
+{
+  "name": "DSSPlugin",
+  "version": "1.0.0",
+  "description": "DSS Plugin",
+  "cordova": {
+    "platforms": [
+    "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="ios.dss.plugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>DSSPlugin</name><js-module name="DSSPlugin" src="www/DSSPlugin.js"><clobbers target="cordova.plugins.DSSPlugin" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="DSSPlugin"><param name="ios-package" value="DSSPlugin" /></feature></config-file><source-file src="src/ios/DSSPlugin.swift" />
+    <source-file src="src/ios/AbPluginHelper.swift" /></platform></plugin>
+
+<source-file src="src/ios/DSSPlugin.swift" />
